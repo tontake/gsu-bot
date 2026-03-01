@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Chat message styling */
+.chat-message-user {
+  @apply bg-blue-600 text-white rounded-2xl rounded-br-md px-4 py-2 max-w-[80%] ml-auto;
+}
+
+.chat-message-bot {
+  @apply bg-gray-100 text-gray-800 rounded-2xl rounded-bl-md px-4 py-2 max-w-[80%];
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
