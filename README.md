@@ -1,6 +1,6 @@
 # GSU SmartAssist Bot
 
-An AI-powered university assistant chatbot for Great Zimbabwe State University (GSU). Built with Laravel (backend) and React + OpenAI ChatKit (frontend).
+An AI-powered university assistant chatbot for Gwanda State University (GSU). Built with Laravel (backend) and React + OpenAI ChatKit (frontend).
 
 ## Project Structure
 
